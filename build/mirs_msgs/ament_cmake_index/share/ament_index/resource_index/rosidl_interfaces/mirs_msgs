@@ -1,3 +1,7 @@
+action/ParameterTrigger.action
+action/ParameterTrigger.idl
+action/Trigger.action
+action/Trigger.idl
 msg/BasicParam.idl
 msg/BasicParam.msg
 srv/BasicCommand.idl

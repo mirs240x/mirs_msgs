@@ -219,4 +219,12 @@ CMakeFiles/mirs_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mirs_m
  /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/srv/detail/basic_command__functions.h \
  /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/srv/detail/number_command__type_support.h \
  /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/srv/detail/number_command__struct.h \
- /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/srv/detail/number_command__functions.h
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/srv/detail/number_command__functions.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__type_support.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__type_support.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__struct.h \
+ /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.h

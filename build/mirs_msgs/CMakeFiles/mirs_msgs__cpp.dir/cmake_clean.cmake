@@ -1,5 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mirs_msgs__cpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__builder.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__struct.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__traits.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/trigger__builder.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/trigger__struct.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/detail/trigger__traits.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp"
+  "rosidl_generator_cpp/mirs_msgs/action/trigger.hpp"
   "rosidl_generator_cpp/mirs_msgs/msg/basic_param.hpp"
   "rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__builder.hpp"
   "rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__struct.hpp"

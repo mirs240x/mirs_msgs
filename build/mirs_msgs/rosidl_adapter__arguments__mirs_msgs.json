@@ -6,6 +6,8 @@
     "/home/oumuika/Documents/mirs_msgs:srv/SimpleCommand.srv",
     "/home/oumuika/Documents/mirs_msgs:srv/BasicCommand.srv",
     "/home/oumuika/Documents/mirs_msgs:srv/NumberCommand.srv",
-    "/home/oumuika/Documents/mirs_msgs:msg/BasicParam.msg"
+    "/home/oumuika/Documents/mirs_msgs:msg/BasicParam.msg",
+    "/home/oumuika/Documents/mirs_msgs:action/Trigger.action",
+    "/home/oumuika/Documents/mirs_msgs:action/ParameterTrigger.action"
   ]
 }

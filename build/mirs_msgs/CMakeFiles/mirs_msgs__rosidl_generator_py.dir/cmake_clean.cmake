@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/action/_parameter_trigger_s.c.o"
+  "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/action/_parameter_trigger_s.c.o.d"
+  "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/action/_trigger_s.c.o"
+  "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/action/_trigger_s.c.o.d"
   "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/msg/_basic_param_s.c.o"
   "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/msg/_basic_param_s.c.o.d"
   "CMakeFiles/mirs_msgs__rosidl_generator_py.dir/rosidl_generator_py/mirs_msgs/srv/_basic_command_s.c.o"

@@ -90,6 +90,14 @@ CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/basic_param.hpp
 CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__builder.hpp
 CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__struct.hpp
 CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__traits.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/trigger.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__builder.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__struct.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__traits.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__builder.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__struct.hpp
+CMakeFiles/mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__traits.hpp
 
 rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -112,6 +120,15 @@ rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/srv/Simp
 rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/srv/BasicCommand.idl
 rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/srv/NumberCommand.idl
 rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/msg/BasicParam.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/action/Trigger.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: rosidl_adapter/mirs_msgs/action/ParameterTrigger.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/mirs_msgs/srv/params.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_cpp__arguments.json
 
@@ -184,7 +201,39 @@ rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__struct.hpp: rosidl_genera
 rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__traits.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__traits.hpp
 
+rosidl_generator_cpp/mirs_msgs/action/trigger.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/trigger.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/trigger__builder.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/trigger__builder.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/trigger__struct.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/trigger__struct.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/trigger__traits.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/trigger__traits.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__builder.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__builder.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__struct.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__struct.hpp
+
+rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__traits.hpp: rosidl_generator_cpp/mirs_msgs/srv/params.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__traits.hpp
+
 mirs_msgs__cpp: CMakeFiles/mirs_msgs__cpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__builder.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__struct.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/parameter_trigger__traits.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__builder.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__struct.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/detail/trigger__traits.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/parameter_trigger.hpp
+mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/action/trigger.hpp
 mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/basic_param.hpp
 mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__builder.hpp
 mirs_msgs__cpp: rosidl_generator_cpp/mirs_msgs/msg/detail/basic_param__struct.hpp

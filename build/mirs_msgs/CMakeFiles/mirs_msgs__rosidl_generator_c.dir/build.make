@@ -88,6 +88,15 @@ rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/srv/SimpleCo
 rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/srv/BasicCommand.idl
 rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/srv/NumberCommand.idl
 rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/msg/BasicParam.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/action/Trigger.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: rosidl_adapter/mirs_msgs/action/ParameterTrigger.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/mirs_msgs/srv/params.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c__arguments.json
 
@@ -160,6 +169,30 @@ rosidl_generator_c/mirs_msgs/msg/detail/basic_param__struct.h: rosidl_generator_
 rosidl_generator_c/mirs_msgs/msg/detail/basic_param__type_support.h: rosidl_generator_c/mirs_msgs/srv/params.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/msg/detail/basic_param__type_support.h
 
+rosidl_generator_c/mirs_msgs/action/trigger.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/trigger.h
+
+rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.h
+
+rosidl_generator_c/mirs_msgs/action/detail/trigger__struct.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/trigger__struct.h
+
+rosidl_generator_c/mirs_msgs/action/detail/trigger__type_support.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/trigger__type_support.h
+
+rosidl_generator_c/mirs_msgs/action/parameter_trigger.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/parameter_trigger.h
+
+rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.h
+
+rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__struct.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__struct.h
+
+rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__type_support.h: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__type_support.h
+
 rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c: rosidl_generator_c/mirs_msgs/srv/params.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c
 
@@ -177,6 +210,12 @@ rosidl_generator_c/mirs_msgs/srv/detail/number_command__functions.c: rosidl_gene
 
 rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c: rosidl_generator_c/mirs_msgs/srv/params.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c
+
+rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c
+
+rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c: rosidl_generator_c/mirs_msgs/srv/params.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c
 
 CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c.o: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c.o: rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c
@@ -262,6 +301,34 @@ CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c -o CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c.s
 
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o: rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o -MF CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o.d -o CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o -c /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c
+
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c > CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.i
+
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c -o CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.s
+
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o: rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o -MF CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o.d -o CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o -c /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c
+
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c > CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.i
+
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/oumuika/Documents/mirs_msgs/build/mirs_msgs/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c -o CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.s
+
 # Object files for target mirs_msgs__rosidl_generator_c
 mirs_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/params__functions.c.o" \
@@ -269,7 +336,9 @@ mirs_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/simple_command__functions.c.o" \
 "CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/basic_command__functions.c.o" \
 "CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/number_command__functions.c.o" \
-"CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c.o"
+"CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c.o" \
+"CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o" \
+"CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o"
 
 # External object files for target mirs_msgs__rosidl_generator_c
 mirs_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -280,11 +349,16 @@ libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.di
 libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/basic_command__functions.c.o
 libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/srv/detail/number_command__functions.c.o
 libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c.o
+libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c.o
+libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c.o
 libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/build.make
+libmirs_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+libmirs_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libmirs_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libmirs_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmirs_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmirs_msgs__rosidl_generator_c.so: CMakeFiles/mirs_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libmirs_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oumuika/Documents/mirs_msgs/build/mirs_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library libmirs_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mirs_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -295,6 +369,16 @@ CMakeFiles/mirs_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/mirs_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/mirs_msgs__rosidl_generator_c.dir/clean
 
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.c
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__functions.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__struct.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/parameter_trigger__type_support.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.c
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/trigger__functions.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/trigger__struct.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/detail/trigger__type_support.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/parameter_trigger.h
+CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/action/trigger.h
 CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/msg/basic_param.h
 CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.c
 CMakeFiles/mirs_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/mirs_msgs/msg/detail/basic_param__functions.h

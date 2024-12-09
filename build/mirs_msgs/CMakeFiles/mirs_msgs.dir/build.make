@@ -82,6 +82,12 @@ CMakeFiles/mirs_msgs: ../../srv/NumberCommand.srv
 CMakeFiles/mirs_msgs: rosidl_cmake/srv/NumberCommand_Request.msg
 CMakeFiles/mirs_msgs: rosidl_cmake/srv/NumberCommand_Response.msg
 CMakeFiles/mirs_msgs: ../../msg/BasicParam.msg
+CMakeFiles/mirs_msgs: ../../action/Trigger.action
+CMakeFiles/mirs_msgs: ../../action/ParameterTrigger.action
+CMakeFiles/mirs_msgs: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/mirs_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/mirs_msgs: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/mirs_msgs: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 mirs_msgs: CMakeFiles/mirs_msgs
 mirs_msgs: CMakeFiles/mirs_msgs.dir/build.make
